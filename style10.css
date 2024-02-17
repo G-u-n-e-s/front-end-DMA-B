@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0 ;
+    font-family:"Roboto", sans-serif;
+}
+
+ol{
+    width: 500px;
+    margin: auto;
+}
+
+li{
+    color: white;
+    font-size: 20px;
+    list-style-position: inside;
+    
+    
+}
+
+
+
+
+li:first-child{
+    background-color: black;
+    padding: 20px 10px 20px;
+    
+    
+
+}
+li:nth-child(2){
+    background-color: silver;
+    padding: 20px 10px 20px;
+
+}
+li:nth-child(3){
+    background-color: gray;
+    padding: 20px 10px 20px;
+
+}
+
+li:nth-child(4){
+    background-color:#33D4FF;
+    padding: 20px 10px 20px;
+
+}
+
+li:nth-child(5){
+    background-color:maroon;
+    padding: 20px 10px 20px;
+
+}
+li:nth-child(6){
+    background-color:red;
+    padding: 20px 10px 20px;
+
+}
+li:nth-child(7){
+    background-color:purple;
+    padding: 20px 10px 20px;
+
+}
+li:nth-child(8){
+    background-color:#FF33E3;
+    padding: 20px 10px 20px;
+}
+
+li:nth-child(9){
+    background-color:green;
+    padding: 20px 10px 20px;
+    
+}
+li:nth-child(10){
+    background-color:lime;
+    padding: 20px 10px 20px;
+    
+}
+li:nth-child(11){
+    background-color:olive;
+    padding: 20px 10px 20px;
+    
+}
+
+li:nth-child(12){
+    background-color:yellow;
+    padding: 20px 10px 20px;
+    
+}
+
+li:nth-child(13){
+    background-color:navy;
+    padding: 20px 10px 20px;
+    
+}
+
+li:nth-child(14){
+    background-color:blue;
+    padding: 20px 10px 20px;
+    
+}
+
+li:nth-child(15){
+    background-color:teal;
+    padding: 20px 10px 20px;
+    
+}
+li:nth-child(16){
+    background-color:aqua;
+    padding: 20px 10px 20px;
+    
+}
+
+li:hover{
+    cursor: pointer;
+    color: black;
+    background-color:white;
+    transition: 0.5s;
+    
+}
+
+
