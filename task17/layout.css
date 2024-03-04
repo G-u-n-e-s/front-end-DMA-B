@@ -1,6 +1,6 @@
 .container{
     width: 85%;
-    max-width: 1120px;
+    max-width: 1140px;
     margin:0 auto; 
     
     
@@ -69,18 +69,7 @@
     width:100%;
 }
 
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12{
+[class^='col-']{
 
     box-sizing: border-box;
     padding-left: 15px;

@@ -1,0 +1,138 @@
+.grid-container{
+    width: 70%;
+    max-width: 1140px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    background-color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+  
+    
+}
+body{
+    background-color: #1a9ac9;
+}
+
+
+img{
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.grid-item:first-child{
+    animation: puzzle1 3s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes puzzle1{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(357px,0);
+}
+    100%{
+        transform: translate(357px,204px);   
+}
+}
+
+.grid-item:nth-child(2),
+.grid-item:nth-child(9)
+{
+    animation: puzzle2 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes puzzle2{
+    0%{
+        transform: translateX(0);
+        
+}
+    100%{
+        transform: translateX(-357px);
+        
+}
+}
+
+.grid-item:nth-child(3),
+.grid-item:nth-child(4)
+{
+    animation: puzzle3 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes puzzle3{
+    0%{
+        transform: translateY(0);
+    
+}
+    100%{
+        transform: translateY(204px);
+    
+}
+}
+
+.grid-item:nth-child(5){
+    animation: puzzle5 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes puzzle5{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,204px);
+    }
+    100%{
+        transform: translate(357px,204px);
+        
+}
+}
+
+.grid-item:nth-child(6),
+.grid-item:nth-child(7)
+{
+    animation: puzzle6 3s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes puzzle6{
+    0%{
+        transform: translateY(0);
+    
+}
+    100%{
+        transform: translateY(-204px);
+
+}
+}
+
+.grid-item:nth-child(8){
+    animation: puzzle8 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes puzzle8{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-204px);
+
+}
+    100%{
+        transform: translateY(-408px);
+
+}
+}
