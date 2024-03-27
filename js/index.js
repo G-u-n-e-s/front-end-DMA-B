@@ -228,7 +228,6 @@
 // Vergi nəzərə alınmadan əmək haqqı məbləğini hesablayan proqram tərtib edin.
 // Proqram istifadəçidən əmək haqqı məbləğin soruşur və
 // 13% vergi istisna olmaqla məbləği konsola çıxarır.
-
 // let emekHaqqi=prompt("Emek haqqinizi daxil edin:");
 // let vergisiz_maas=emekHaqqi-(emekHaqqi*13/100);
 // console.log(vergisiz_maas);
@@ -435,7 +434,7 @@
 //         console.log("Noyabr");
 //         break;
 //     case "12":
-//         console.log("Dekabr");
+//         console.log("Dekabr");2000
 //         break;
 //     default:
 //         console.log("Invalid value");
@@ -448,3 +447,57 @@
 // Daxil edilmiş dəyərə validator əlavə edin.
 // İstifadəçi səhv formatda dəyər daxil edərsə, «Yanlış dəyər daxil edilib» bildirişi göstərin.
 
+// let value=prompt("Zehmet olmasa YYYY.MM.DD formatda tarixi qeyd edin:");
+// let list=value.split(".");
+// let year=list[0];
+// let month=list[1];
+// let day=list[2];
+// switch(month){
+//     case "1":
+//     case "01":
+//         console.log(`${day} Yanvar ${year}-cu il`);
+//         break;
+//     case "2":
+//     case "02":
+//         console.log(`${day} Fevral ${year}-cu il`);
+//         break;
+//     case "3":
+//     case "03":
+//         console.log(`${day} Mart ${year}-cu il`);
+//         break;
+//     case "4":
+//     case "04":
+//         console.log(`${day} Aprel ${year}-cu il`);
+//         break;
+//     case "5":
+//     case "05":
+//         console.log(`${day} May ${year}-cu il`);
+//         break;
+//     case "6":
+//     case "06":
+//         console.log(`${day} Iyun ${year}-cu il`);
+//         break;
+//     case "7":
+//     case "07":
+//         console.log(`${day} Iyul ${year}-cu il`);
+//         break;
+//     case "8":
+//     case "08":
+//         console.log(`${day} Avqust ${year}-cu il`);
+//         break;
+//     case "9":
+//     case "09":
+//         console.log(`${day} Sentyabr ${year}-cu il`);
+//         break;
+//     case "10":
+//         console.log(`${day} Oktyabr ${year}-cu il`);
+//         break;
+//     case "11":
+//         console.log(`${day} Noyabr ${year}-cu il`);
+//         break;
+//     case "12":
+//         console.log(`${day} Dekabr ${year}-cu il`);
+//         break;
+//     default:
+//         break;
+// }
