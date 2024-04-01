@@ -215,14 +215,18 @@
 // "15263538479359486()-="';:!@#$%^&*()"
 // REGEX()
 
+// function numCounter (txt){
 // let sy="1234567890()-_=+*&^%$ #@.,<>/?{}[]!``~\"|"
-// let txt="lorem 6327163.,/#^&+ ejkGun$%*e#2l"
 // let result=""
 // for(let i=0; i<txt.length;i++){
 //     if(!sy.includes(txt[i])){
 //         result+=txt[i]
 //     }
 // }
-// console.log(result.length);
+//     return result.length;
+
+// }
+// console.log(numCounter("Gunel*@|>s&al%a^m"));
+
 
 
