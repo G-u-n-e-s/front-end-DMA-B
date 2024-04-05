@@ -69,23 +69,13 @@
 //     [ 'Jane Stone', 'management' ],
 //     [ 'Courtney Olson', 'development' ],
 // ];
-// // let development=['Jaylee Macy','John Smith','Blossom Hartley','Austin Carpenter','Joan Knowles','Sally Nunez','Laurel Ward','Lark Simon','Jane Stone','Courtney Olson']
-// // let development=[]
-// let[]=employees
-// let[userName,department]=employees
-// for(
-    
-// ){
-//     console.log(employees[1]);
-
+// let development=[]
+// employees.forEach(item =>{
+//     if(item[1]=="development"){
+//     development.push(item[0])
 // }
-
-
-
-
-
-
-
+//     })
+//     console.log(development);
 
 
 
@@ -101,14 +91,33 @@
 // Tam ədədlər massivini artan sırada düzən funksiya yazın.
 // Tam ədədlər massivini qəbul edən, onu artan ardıcıllıqla sıralayan və sıralanmış massivi geri
 // qaytaran sortArray funksiyasını yazın.
-// let array = [1, 6, 34, 5, 1, -4, 54, 76, 23, 65, 3, 50, 45, 100, 2346, -52, 6545, 0, 45, 22];
 
+// let array = [1, 6, 34, 5, 1, -4, 54, 76, 23, 65, 3, 50, 45, 100, 2346, -52, 6545, 0, 45, 22];
+// array.sort((a,b)=>{
+//     return a-b
+// });
+// console.log(array);
 // Task-08
 // Rəqəmlər massivini parametr kimi qəbul edən və həmin massivdən konsola bütün mənfi ədədləri çıxaran funksiya yazın.
+
+// let nums=[5,-5,12,6,-8,4,9,-6,2,-2]
+// nums.forEach(item => {
+//     if(item<0){
+//         console.log(item);
+//     } 
+// });
+
 
 // Task-09
 // Rəqəmlər massivini parametr kimi qəbuil edən və həmin massivdəki bütün müsbət ədədləri konsola çıxaran funksiya yazın.
 // İterasiya üçün anonim funksiyadan istifadə edin.
+
+// let nums=[5,-5,12,6,-8,4,9,-6,2,-2]
+// nums.forEach(item => {
+//     if(item>0){
+//         console.log(item);
+//     } 
+// });
 
 // Task-10
 // Geri çağırış funksiyalarını yazın (callback) printWithDashes, printWithHearts, printWithIndex.
